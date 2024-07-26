@@ -1,0 +1,176 @@
+﻿@page "/consultparticipant"
+@using Models;
+@inject IJSRuntime jsRuntime
+@inject NavigationManager _navigationManager
+
+<div style="display:inline-flex;flex-direction:row;align-items:center;justify-content:center">
+
+
+    @if (dataUserActual.Name != null && selectDni == "Dni")
+    {
+        <div class="container-data">
+            <div class="container-data-primary">
+                <div class="container-data-header">
+                    <p>DATOS REGISTRADOS</p>
+                </div> <br>
+                <div class="container-fluid">
+                    <p style="color: red">Encaso que de una observación de sus datos puede enviar un mensaje de correcíón.</p>
+                </div>
+                <div class="container-data-text">
+                    <p><strong>NOMBRES:</strong> @(dataUserActual.Name)</p>
+                    <p><strong>APELLIDOS:</strong> @($"{dataUserActual.paternalSurname}\n{dataUserActual.maternalSurname}")</p>
+                    <p><strong>CORREO:</strong> @(dataUserActual.Email)</p>
+                    <p><strong>DNI:</strong> @(dataUserActual.Dni)</p>
+                    <p><strong>CELULAR:</strong> @(dataUserActual.Phone)</p>
+                </div>
+            </div>
+
+            <EditForm Model="@dataUsuario" OnValidSubmit="GuardarData">
+            <DataAnnotationsValidator />
+                <div class="p-4 container-form">
+
+                    <div style="display:flex;flex-direction:row;gap:40px;">
+                        <label for="Name" class="form-label" style="font-weight:bold">Mensaje:</label>
+                        <div class="col-md-4" style="width:20vw;height:5vh;color:black">
+                            <InputTextArea class="form-control container-textarea" bind-Value="dataMessage.Message" />
+                        </div>
+                    </div>
+                    <div class="container-button">
+                        <button @onclick="NavigateToNewTab" type="submit" class="btn btn-success" >Enviar Mensaje</button>
+                        <button @onclick="NevigateToYourUrl" type="submit" class="btn btn-primary btn-refresh" style="width:20vw;background-color:#7f3f95">Regresar</button>
+                    </div>
+            </div>
+            </EditForm>
+        </div>
+    }
+    else{
+        @if (formState=true){
+            
+                <EditForm Model="@dataUsuario" OnValidSubmit="GuardarData">
+                    <DataAnnotationsValidator />
+
+                <div class="mb-3">
+                    <p style="font-weight:bold;font-size:20px;padding-left:12px;">CONSULTAR DE DATOS</p>
+                </div>
+                <div class="p-4 container-login" style="display:flex;align-items:center;justify-content:center;gap:25px;flex-direction:column;width:23vw;height:40vh;background-color:#f7f7f7;border-radius:10px">
+                    <div class="mb-3">
+                        <label for="Select" class="form-label" style="font-weight:bold">Tipo Documento</label>
+                        <select class="form-control data-select" value="@defaultValue " @onchange="@OnSelect">
+                            @foreach (var template in templates)
+                            {
+                                <option value=@template>@template</option>
+                            }
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Name" class="form-label" style="font-weight:bold">Numero de Documento</label>
+                        <div class="col-md-4 data-input">
+                            <InputText class="form-control" bind-Value="dataUsuario.DNI" />
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-consult">Consultar</button>
+                </div>
+                <h5>@selectedString</h5>
+
+                </EditForm>
+        }
+    }
+</div>
+@code {
+
+    private int currentCount = 0;
+    private List<Models.User> userList = new();
+
+    protected string Titulo = "Formulario";
+    List<string> templates = new List<string>() { "Dni", "Pasaporte" };
+    string selectedString = "";
+    string selectDni = "";
+    string defaultValue = "America";
+    protected User dataUsuario = new();
+    protected MessageUser dataMessage = new();
+    public DataActualUser dataUserActual = new();
+    Boolean formState = true;
+
+
+    protected override Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            userList = context.User.ToList();
+
+            StateHasChanged();
+        }
+        return base.OnAfterRenderAsync(firstRender);
+    }
+    public async Task NavigateToNewTab()
+    {
+        if(dataMessage.Message!=""){
+            string url = $"https://api.whatsapp.com/send?l=es&phone=51930387395&text={dataMessage.Message}";
+            await jsRuntime.InvokeAsync<object>("open", url, "_blank");
+        }
+
+    }
+
+    void NevigateToYourUrl()
+    {
+        _navigationManager.NavigateTo("/", true);
+    }
+
+
+    void OnSelect(ChangeEventArgs e)
+    {
+        selectDni = e.Value.ToString();
+    }
+    protected async Task GuardarData()
+    {
+        foreach (var u in userList)
+        {
+            if (dataUsuario.DNI == u.DNI)
+            {
+                dataUserActual = new DataActualUser()
+                {
+                        Name = u.Name,
+                        Email = u.Email,
+                        Dni=u.DNI,
+                        Phone=u.Phonenumber,
+                        paternalSurname=u.PaternalSurname,
+                        maternalSurname=u.MaternalSurname,
+                        Style = "sds"
+                 };
+
+                formState = false;
+                selectedString = "El tipo de documento es: " + dataUsuario.DNI;
+                StateHasChanged();
+            }
+            else if (dataUsuario.DNI == "")
+            {
+                selectedString = "Ingrese su numero de documento";
+            }
+            else if(selectDni==""){
+                selectedString = "Seleccion el tipo de documento";
+            }
+            else{
+                selectedString = "Datos No Registrado en el sistema";
+            }
+        }
+
+    }
+
+    public class DataActualUser
+    {
+        public string? Name { get; set; }
+        public string? Email { get; set; }
+        public string? Dni { get; set; }
+        public string? Phone { get; set; }
+        public string? paternalSurname { get; set; }
+        public string? maternalSurname { get; set; }
+
+
+        public string? Style { get; set; }
+    }
+    public class MessageUser
+    {
+        public string? Message { get; set; }
+    }
+}

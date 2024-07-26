@@ -1,0 +1,90 @@
+﻿@page "/admin"
+@layout Layout.AdminLayout
+
+
+<PageTitle>Index</PageTitle>
+
+<h3>Lista de Asistencia</h3>
+<div class="card">
+    <div class="card-body">
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Seleccione fecha de asistencia</label>
+            <select class="form-control" @bind="dateSelected" style="max-width: 200px">
+                @foreach (var item in dateList)
+                {
+                    <option value="@item">@(item.Day + "/" + item.Month + "/" + item.Year)</option>
+                }
+            </select>
+        </div>
+
+    </div>
+</div>
+<br />
+<div class="card">
+    <div class="card-body">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">N°</th>
+                    <th scope="col">DNI</th>
+                    <th scope="col">Apellidos y Nombres</th>
+                    <th scope="col">Hora</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in loadUsers(dateSelected).Select((x, i) => new { value = x, index = i + 1 }))
+                {
+                    <tr>
+                        <th scope="row">@(item.index)</th>
+                        <td>@(item.value.dni)</td>
+                        <td>@(item.value.fullname)</td>
+                        <td>@(item.value.date)</td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+@code {
+    private List<DateTime> dateList = new();
+    private List<ddd> assitanceList = new();
+
+    private DateTime? dateSelected = null;
+    protected override Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            dateList = context.Assistances.Select(x => x.Date.Date).Distinct().OrderByDescending(x => x).ToList();
+            dateSelected = dateList.FirstOrDefault();
+
+            StateHasChanged();
+        }
+        return base.OnAfterRenderAsync(firstRender);
+    }
+    private void changeSelect(DateTime datetime)
+    {
+        Console.WriteLine(datetime);
+    }
+    private List<ddd> loadUsers(DateTime? date)
+    {
+        if (date == null) return new();
+
+        var format = "" + date?.Year + date?.Month + date?.Day;
+        return context.Assistances.Where(x => "" + x.Date.Year + x.Date.Month + x.Date.Day == format).Select(x => new ddd
+            {
+                fullname = x.User.PaternalSurname + " " + x.User.MaternalSurname + ", " + x.User.Name,
+                dni = x.User.DNI,
+                date = x.Date
+            }).ToList().OrderBy(x=>x.fullname).ToList();
+
+    }
+    public class ddd
+    {
+        public string fullname { get; set; } = string.Empty;
+        public string dni { get; set; } = string.Empty;
+        public DateTime date { get; set; }
+    }
+}

@@ -1,0 +1,59 @@
+﻿@page "/admin/registrados"
+@layout Layout.AdminLayout
+
+
+<PageTitle>Counter</PageTitle>
+<div style="display: flex; justify-content: space-between; align-items: center">
+    <h3>Registrados</h3>
+    <a class="btn btn-primary" download href="/api/Users/export">Reporte de registro</a>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">N°</th>
+                    <th scope="col">DNI</th>
+                    <th scope="col">Apellidos y Nombres</th>
+                    <th scope="col">Celular</th>
+                    <th scope="col">Email</th>
+
+                    <th scope="col">T.Participante</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in userList.Select((x, i) => new { value = x, index = i + 1 }))
+                {
+                    <tr>
+                        <th scope="row">@(item.index)</th>
+                        <td>@(item.value.DNI)</td>
+                        <td>@(item.value.PaternalSurname) @(item.value.MaternalSurname), @(item.value.Name)</td>
+                        <td>@(item.value.Phonenumber)</td>
+                        <td>@(item.value.Email)</td>
+                        <td>@(item.value.ParticipantType)</td>
+
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+@code {
+    private int currentCount = 0;
+    private List<AssistanceQr.Models.User> userList = new();
+    protected override Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            userList = context.User.ToList();
+
+            StateHasChanged();
+        }
+        return base.OnAfterRenderAsync(firstRender);
+    }
+}

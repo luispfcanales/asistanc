@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\DEPLOY.AssistanceQr</_PublishTargetUrl>
+    <History>True|2022-10-27T22:01:36.8787876Z;True|2022-10-27T15:18:22.0607655+00:00;True|2022-10-27T15:15:44.1837598+00:00;False|2022-10-27T15:15:00.6357620+00:00;False|2022-10-27T15:14:30.6537645+00:00;True|2022-10-27T15:11:09.4967615+00:00;</History>
+  </PropertyGroup>
+</Project>

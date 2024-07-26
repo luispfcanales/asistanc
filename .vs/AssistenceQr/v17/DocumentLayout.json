@@ -1,0 +1,488 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\original.appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\original.appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\assistenceqr.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\assistenceqr.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\components\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\components\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\components\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\components\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\appsettings.json.bak||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\appsettings.json.bak||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\components\\pages\\adminindex.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\components\\pages\\adminindex.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\components\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\components\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\components\\pages\\consultparticipant.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\components\\pages\\consultparticipant.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\components\\pages\\listregisterspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\components\\pages\\listregisterspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\components\\pages\\importarpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\components\\pages\\importarpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\components\\layout\\surveyprompt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\components\\layout\\surveyprompt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\components\\layout\\navadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\components\\layout\\navadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\models\\assistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\models\\assistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\assistenceqr.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\assistenceqr.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\controllers\\assistancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\controllers\\assistancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|c:\\users\\yoshiro\\source\\repos\\assistenceqr\\assistenceqr\\properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9CCA11C5-D610-40A2-AF50-F8930F4319D4}|AssistenceQr\\AssistenceQr.csproj|solutionrelative:assistenceqr\\properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "AssistenceQr\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\_Imports.razor",
+              "RelativeToolTip": "AssistenceQr\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T17:41:40.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "original.appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\original.appsettings.json",
+              "RelativeDocumentMoniker": "AssistenceQr\\original.appsettings.json",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\original.appsettings.json",
+              "RelativeToolTip": "AssistenceQr\\original.appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-26T17:41:14.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Pages\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AssistenceQr\\Components\\Pages\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Pages\\_Layout.cshtml",
+              "RelativeToolTip": "AssistenceQr\\Components\\Pages\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T17:18:07.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "AssistenceQr\\Components\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "AssistenceQr\\Components\\Pages\\_Host.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T17:18:05.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "AssistenceQr\\Components\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Pages\\Error.cshtml",
+              "RelativeToolTip": "AssistenceQr\\Components\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T17:13:19.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\appsettings.json",
+              "RelativeDocumentMoniker": "AssistenceQr\\appsettings.json",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\appsettings.json",
+              "RelativeToolTip": "AssistenceQr\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-26T17:20:12.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Program.cs",
+              "RelativeDocumentMoniker": "AssistenceQr\\Program.cs",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Program.cs",
+              "RelativeToolTip": "AssistenceQr\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T16:41:46.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json.bak",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\appsettings.json.bak",
+              "RelativeDocumentMoniker": "AssistenceQr\\appsettings.json.bak",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\appsettings.json.bak",
+              "RelativeToolTip": "AssistenceQr\\appsettings.json.bak",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-26T17:20:53.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssistenceQr",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\AssistenceQr.csproj",
+              "RelativeDocumentMoniker": "AssistenceQr\\AssistenceQr.csproj",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\AssistenceQr.csproj",
+              "RelativeToolTip": "AssistenceQr\\AssistenceQr.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-26T19:48:27.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SurveyPrompt.razor",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Layout\\SurveyPrompt.razor",
+              "RelativeDocumentMoniker": "AssistenceQr\\Components\\Layout\\SurveyPrompt.razor",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Layout\\SurveyPrompt.razor",
+              "RelativeToolTip": "AssistenceQr\\Components\\Layout\\SurveyPrompt.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T17:09:02.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "AssistenceQr\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "AssistenceQr\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T17:08:46.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "AssistenceQr\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "AssistenceQr\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T17:06:46.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConsultParticipant.razor",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Pages\\ConsultParticipant.razor",
+              "RelativeDocumentMoniker": "AssistenceQr\\Components\\Pages\\ConsultParticipant.razor",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Pages\\ConsultParticipant.razor",
+              "RelativeToolTip": "AssistenceQr\\Components\\Pages\\ConsultParticipant.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T16:44:20.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminIndex.razor",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Pages\\AdminIndex.razor",
+              "RelativeDocumentMoniker": "AssistenceQr\\Components\\Pages\\AdminIndex.razor",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Pages\\AdminIndex.razor",
+              "RelativeToolTip": "AssistenceQr\\Components\\Pages\\AdminIndex.razor",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T17:13:21.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "AssistenceQr\\Components\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Pages\\Index.razor",
+              "RelativeToolTip": "AssistenceQr\\Components\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T16:43:29.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ListRegistersPage.razor",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Pages\\ListRegistersPage.razor",
+              "RelativeDocumentMoniker": "AssistenceQr\\Components\\Pages\\ListRegistersPage.razor",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Pages\\ListRegistersPage.razor",
+              "RelativeToolTip": "AssistenceQr\\Components\\Pages\\ListRegistersPage.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T16:43:23.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Utils.cs",
+              "RelativeDocumentMoniker": "AssistenceQr\\Utils.cs",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Utils.cs",
+              "RelativeToolTip": "AssistenceQr\\Utils.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T16:41:36.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MyContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\MyContext.cs",
+              "RelativeDocumentMoniker": "AssistenceQr\\MyContext.cs",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\MyContext.cs",
+              "RelativeToolTip": "AssistenceQr\\MyContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T16:41:32.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Layout\\AdminLayout.razor",
+              "RelativeDocumentMoniker": "AssistenceQr\\Components\\Layout\\AdminLayout.razor",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Layout\\AdminLayout.razor",
+              "RelativeToolTip": "AssistenceQr\\Components\\Layout\\AdminLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T16:41:24.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ImportarPage.razor",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Pages\\ImportarPage.razor",
+              "RelativeDocumentMoniker": "AssistenceQr\\Components\\Pages\\ImportarPage.razor",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Pages\\ImportarPage.razor",
+              "RelativeToolTip": "AssistenceQr\\Components\\Pages\\ImportarPage.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T16:39:10.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AssistenceQr.csproj",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\AssistenceQr.csproj",
+              "RelativeDocumentMoniker": "AssistenceQr\\AssistenceQr.csproj",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\AssistenceQr.csproj",
+              "RelativeToolTip": "AssistenceQr\\AssistenceQr.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-26T16:42:19.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AssistenceQr\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Models\\User.cs",
+              "RelativeToolTip": "AssistenceQr\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T16:42:59.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NavAdmin.razor",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Layout\\NavAdmin.razor",
+              "RelativeDocumentMoniker": "AssistenceQr\\Components\\Layout\\NavAdmin.razor",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Layout\\NavAdmin.razor",
+              "RelativeToolTip": "AssistenceQr\\Components\\Layout\\NavAdmin.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T16:41:21.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "AssistenceQr\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "AssistenceQr\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T16:43:03.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\App.razor",
+              "RelativeDocumentMoniker": "AssistenceQr\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\App.razor",
+              "RelativeToolTip": "AssistenceQr\\Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T16:38:38.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "AssistenceQr\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Components\\Routes.razor",
+              "RelativeToolTip": "AssistenceQr\\Components\\Routes.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T16:38:28.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Assistance.cs",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Models\\Assistance.cs",
+              "RelativeDocumentMoniker": "AssistenceQr\\Models\\Assistance.cs",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Models\\Assistance.cs",
+              "RelativeToolTip": "AssistenceQr\\Models\\Assistance.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T16:37:58.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AssistancesController.cs",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Controllers\\AssistancesController.cs",
+              "RelativeDocumentMoniker": "AssistenceQr\\Controllers\\AssistancesController.cs",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Controllers\\AssistancesController.cs",
+              "RelativeToolTip": "AssistenceQr\\Controllers\\AssistancesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T16:29:14.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FolderProfile.pubxml",
+              "DocumentMoniker": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "RelativeDocumentMoniker": "AssistenceQr\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "ToolTip": "C:\\Users\\Yoshiro\\source\\repos\\AssistenceQr\\AssistenceQr\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "RelativeToolTip": "AssistenceQr\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-07-26T16:16:17.384Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

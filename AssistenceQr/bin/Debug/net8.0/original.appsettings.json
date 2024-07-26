@@ -1,0 +1,12 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    //"akdemic": "data source=200.37.144.19; initial catalog=PARTICIPANTS; user id=sa;password=d3vel0p34du@@2022?!; MultipleActiveResultSets=False"
+  }
+}

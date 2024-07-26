@@ -1,0 +1,170 @@
+﻿@page "/admin/importar"
+@using AssistanceQr;
+@using AssistanceQr.Models;
+@using OfficeOpenXml;
+
+
+
+<div style="display: flex; justify-content: space-between; align-items: center">
+    <h3>Importar participantes</h3>
+    <a class="btn btn-primary" download href="/api/Assistance/templateexcel">Descargar plantilla</a>
+</div>
+<div class="mb-3">
+    <label for="formFile" class="form-label">Importar excel con formato</label>
+    <InputFile class="form-control" id="formFile" OnChange="@LoadFiles" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" />
+
+</div>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            @foreach (var item in headers)
+            {
+                <td>@item</td>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var rows in lista.Select((x, i) => new { value = x, index = i + 1 }))
+        {
+            <tr>
+                <td style="width: 1px">@(rows.index)</td>
+
+                <td>@rows.value.DNI</td>
+                <td>@rows.value.A_PATERNO</td>
+                <td>@rows.value.A_MATERNO</td>
+                <td>@rows.value.NOMBRES</td>
+                <td>@rows.value.E_MAIL</td>
+                <td>@rows.value.TELEFONO</td>
+                <td>@rows.value.T_PARTICIPANT</td>
+
+
+            </tr>
+        }
+    </tbody>
+</table>
+@if (lista.Count > 0)
+{
+    <button class="btn btn-primary" @onclick="save">Guardar</button>
+}
+<br />
+<br />
+
+@code {
+    private int totalColumn = 0;
+    private List<AssistanceLoad> lista = new();
+    private List<string> headers = new();
+
+    private async void save()
+    {
+        Console.WriteLine("SALVANDO");
+        if (lista.Count > 0)
+        {
+            var listSave = new List<AssistanceQr.Models.User>();
+            lista.ForEach(x =>
+            {
+                var find = context.User.Where(y => y.DNI == x.DNI).FirstOrDefault();
+                if (find == null)
+                {
+                    listSave.Add(new AssistanceQr.Models.User
+                        {
+                            Id = Guid.NewGuid(),
+                            DNI = x.DNI,
+                            CreateAt = DateTime.UtcNow,
+                            DNIType = AssistanceQr.Models.DNIType.DNI,
+                            Email = x.E_MAIL,
+                            MaternalSurname = x.A_MATERNO,
+                            PaternalSurname = x.A_PATERNO,
+                            ModifiedAt = DateTime.UtcNow,
+                            Name = x.NOMBRES,
+                            ParticipantType = x.T_PARTICIPANT,
+                            Phonenumber = x.TELEFONO,
+                            Sex = AssistanceQr.Models.Sex.Masculino
+
+                        });
+                }
+            });
+            context.User.AddRange(listSave);
+            context.SaveChanges();
+            await JS.InvokeVoidAsync("alert", "Se termino de exportar con exito");
+
+        }
+    }
+    private async void LoadFiles(InputFileChangeEventArgs e)
+    {
+        var aa = e.File;
+        if (aa == null) return;
+        lista = new();
+        headers = new();
+
+        var stream = aa.OpenReadStream();
+
+        try
+        {
+
+            if (stream == null) return;
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+
+            using (var excelPackage = new ExcelPackage())
+            {
+
+                await excelPackage.LoadAsync(stream);
+                var excel = excelPackage.Workbook.Worksheets.FirstOrDefault();
+
+                if (excel == null) return;
+
+                var column = excel.Dimension.End.Column;
+                var row = excel.Dimension.End.Row;
+
+
+                for (var i = 1; i <= column; i++)
+                {
+                    var item = excel.Cells[1, i].Value?.ToString() ?? "";
+                    if (Utils.headers.Contains(item))
+                    {
+                        headers.Add(item);
+                    }
+                }
+                if (string.Join("", headers.ToArray()) != string.Join("", Utils.headers.ToArray()))
+                {
+                    throw new Exception("Columnas de excel sin formato");
+                }
+
+                for (var i = 2; i <= row; i++)
+                {
+                    var myList = new AssistanceLoad();
+
+
+                    for (var j = 1; j <= column; j++)
+                    {
+                        string item = excel.Cells[i, j].Value?.ToString() ?? "";
+
+                        var type = 1;
+                        int.TryParse(item, out type);
+
+
+                        if (j == 1) myList.DNI = item;
+                        if (j == 2) myList.A_PATERNO = item;
+                        if (j == 3) myList.A_MATERNO = item;
+                        if (j == 4) myList.NOMBRES = item;
+                        if (j == 5) myList.E_MAIL = item;
+                        if (j == 6) myList.TELEFONO = item;
+                        if (j == 7) myList.T_PARTICIPANT = (AssistanceQr.Models.ParticipantType)type;
+
+
+                    }
+                    lista.Add(myList);
+                }
+
+                StateHasChanged();
+            }
+        }
+        catch (Exception o)
+        {
+            await JS.InvokeVoidAsync("alert", "Archivo excel con formato incorrecto");
+            Console.WriteLine(o.Message);
+        }
+
+    }
+}
